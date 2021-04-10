@@ -3,7 +3,7 @@
 >fícticia UNES.
 
 Primeiro projeto do curso de desenvolvimento web do [Udemy](https://www.udemy.com/course/web-completo/), com finalidade de por em prática os conhecimentos adquiridos na seção 3. 
-Utilizando apenas com HTML, o site foi estruturado utilizando a tag `table`. Não é a recomendação para projetos mais profissionais.
+Utilizando apenas com HTML básico.
 <br>
 
 ![Página incial](imagens/pagina1.png)
@@ -14,7 +14,7 @@ Utilizando apenas com HTML, o site foi estruturado utilizando a tag `table`. Nã
 
 ## Objetivo
 
-O projeto é voltado para quem está iniciando seus estudos em HTML, utilizando apenas o básico, foi possível estruturar uma página institucional, com menu, logo e um formulário para contato.
+O projeto é voltado para quem está iniciando seus estudos em HTML, pois com algumas tags básicas foi possível criar um site com menu, logo, capa, uma lista de vantagens e um formulário para contato. O site foi estruturado tendo como base a tag `table`, porém não é a recomendado este método para projetos mais profissionais.
 
 <hr>
 
