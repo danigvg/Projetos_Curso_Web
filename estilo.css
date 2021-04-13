@@ -1,0 +1,10 @@
+body{
+    background-color: #d2d2c0;
+    background-image: url(imagens/fundo.png);
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+#container {
+    width: 900px;
+    margin:auto;
+}
