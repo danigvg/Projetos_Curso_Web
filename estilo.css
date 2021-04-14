@@ -1,7 +1,7 @@
 body{
-    background-color: #d2d2c0;
+    background-color: #d2d2c1;
     background-image: url(imagens/fundo.png);
-    font-family: Tahoma, Helvetica, sans-serif;
+    font: 16px Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -13,10 +13,12 @@ body{
     background-color: #d2d2c0;
     padding: 25px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
 #conteudo {
     background-color: #ffffe6;
     padding:3px 10px 3px 10px;
+    text-align: justify;
 }
