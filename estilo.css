@@ -8,3 +8,8 @@ body{
     width: 900px;
     margin:auto;
 }
+
+#conteudo {
+    background-color: #ffffe6;
+    padding:3px 10px 3px 10px;
+}
