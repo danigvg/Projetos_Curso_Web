@@ -10,15 +10,21 @@ body{
 }
 
 #menu{
-    background-color: #d2d2c0;
-    padding: 25px;
+    background-color: #c5c5b2;
+    padding: 18px;
+    
+}
+a{
+    color: #4b566a;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 5px;
 }
 
 
 #conteudo {
-    background-color: #ffffe6;
+    background-color: #e8e8d9;
     padding:3px 10px 3px 10px;
     text-align: justify;
 }
