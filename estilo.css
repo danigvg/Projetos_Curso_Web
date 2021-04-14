@@ -29,6 +29,11 @@ a{
     text-align: justify;
 }
 
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
 #rodape{
     text-align: center;
 }
