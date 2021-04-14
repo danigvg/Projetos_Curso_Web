@@ -34,6 +34,11 @@ h1{
     font-size: 1.2em;
 }
 
+.img-campanhas{
+    border: 10px #c3c3ae;
+    border-style:ridge;
+}
+
 #rodape{
     text-align: center;
 }
