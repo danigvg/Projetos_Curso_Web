@@ -25,7 +25,7 @@ a{
 
 #conteudo {
     background-color: #e8e8d9;
-    padding:3px 10px 3px 10px;
+    padding:8px 13px 6px 13px;
     text-align: justify;
 }
 
@@ -37,6 +37,10 @@ h1{
 .img-campanhas{
     border: 10px #c3c3ae;
     border-style:ridge;
+}
+#contato{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 #rodape{
