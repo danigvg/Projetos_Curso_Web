@@ -1,5 +1,5 @@
 # Projeto2_AnaBella
->Site da modelo fícticia Anna Bella.
+>Site da modelo fictícia Anna Bella.
 
 Projeto contendo página principal, biografia, campanhas publicitárias e contato da modelo, feito em html e css.Este é o 2º projeto do curso de Desenvolvimento Web que faço pela plataforma [Udemy](https://www.udemy.com/course/web-completo/), e o 1º da seção 04 que introduz a estilização de páginas HTML com CSS.
 
