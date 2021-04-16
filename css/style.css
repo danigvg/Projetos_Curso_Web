@@ -28,11 +28,6 @@ body {
     padding: 15px;
 }
 
-/* edição para vizualição nao pertence ao projeto */
-#area-postagens, #area-lateral {
-    background-color: orangered;
-}
-
 #area-postagens {
     width: 660px;
     float: left;
@@ -98,7 +93,8 @@ h2{
 
 #area-postagens p {
     text-align: justify;
-    padding-bottom: 8px;
+    padding: 8px 0;
+
 }
 
 .data-postagem {
