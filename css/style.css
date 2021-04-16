@@ -35,12 +35,18 @@ body {
 #area-postagens {
     width: 660px;
     float: left;
-
 }
 
 #area-lateral {
     width: 240px;
     float: right;
+}
+
+#area-rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
 }
 
 /* ***** FORMATAÇÃO MENU ***** */
