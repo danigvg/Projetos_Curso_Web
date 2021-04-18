@@ -44,6 +44,16 @@ body {
     background: white;
 }
 
+.conteudo-lateral {
+    background: white;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
 #area-rodape{
     clear: both;
     text-align: center;
@@ -87,6 +97,19 @@ h2{
     color:#f7b600;
     padding-bottom: 6px;
 }
+
+h3 {
+    color:#565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.postagem-lateral p {
+   margin-top: 3px;
+   margin-bottom: 3px;
+   text-align: justify;
+}
+
 .branco{
     color: white;
 }
