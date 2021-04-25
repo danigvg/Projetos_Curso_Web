@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Andada", "Roboto Slab" , serif;
+    background: #fff url(../imagens/fundo.png) repeat-x top left;
+}
