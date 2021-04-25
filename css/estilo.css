@@ -6,3 +6,9 @@ body{
     font-family: "Andada", "Roboto Slab" , serif;
     background: #fff url(../imagens/fundo.png) repeat-x top left;
 }
+
+#container {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
