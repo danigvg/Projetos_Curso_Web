@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
-    font-family: "Andada", "Roboto Slab" , serif;
+    font-family:'Fjalla One', 'Roboto', Verdana, Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x top left;
 }
-
+h1{
+    font-family: 'Fjalla One';
+}
+p{
+    font-family: 'Roboto';
+}
 #container {
     width: 700px;
     margin: 0 auto;
