@@ -17,8 +17,7 @@ p{
 }
 #container {
     width: 700px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 #topo{
@@ -26,4 +25,11 @@ p{
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
     border: 1px solid red;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png);
+    text-indent: -3000px;
 }
