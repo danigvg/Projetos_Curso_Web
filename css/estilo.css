@@ -6,17 +6,12 @@
 }
 
 body{
-    font-family:'Fjalla One', 'Roboto', Verdana, Helvetica, sans-serif;
+    font-family:'Roboto', 'Fjalla One', Verdana, Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x top left;
 }
-h1{
-    font-family: 'Fjalla One';
-}
-p{
-    font-family: 'Roboto';
-}
+
 #container {
-    width: 700px;
+    width: 750px;
     margin: 0 auto;   
 }
 
@@ -24,7 +19,7 @@ p{
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .logo {
@@ -32,4 +27,51 @@ p{
     height: 66px;
     background: url(../imagens/logo.png);
     text-indent: -3000px;
+    font-family: 'Fjalla One';
+}
+
+/* *** Barra de Navegeção *** */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    font-size: 0.9em;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.8px;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.inter #navegacao a#inter,
+body.econo #navegacao a#econo,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.foto #navegacao a#fotos{
+    color:#fff;
+    background: #d1023d;
+    cursor: text;
 }
