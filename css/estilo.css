@@ -143,6 +143,32 @@ h2 {
     text-indent: 18px;
 }
 
+/* *** Formatação da caixa News *** */
+label{
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+input {
+    width: 125px;
+    font-size: 0.8em;
+    background: #fff;
+    border: 1px outset #8f8f8f;
+    border-radius: 3px;
+    padding: 5px;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px outset #870529;
+    border-radius: 4px;
+    margin-top:4px;
+    padding: 5px;
+}
+
 /* ***Rodapé*** */
 #container-rodape {
     clear: both;
