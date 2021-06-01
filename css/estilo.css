@@ -104,9 +104,46 @@ body.foto #navegacao a#fotos{
     width: 180px;
     margin:0 0 20px -750px;
     float: left;
-    background: indigo;
+}
+/* *** Caixa*** */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+h2 {
+    font-size: 1.2em;
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    padding: 5px;
+    letter-spacing: 2px;
+    background: #294c71;
+    color: #fff;
+}
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
+/* *** Menu Lateral *** */
+#lateral ul a {
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #ebebeb;
+}
+#lateral ul a:hover{
+    color: #8f8f8f;
+    background:url(../imagens/marcador.png) no-repeat left center;
+    text-indent: 18px;
+}
+
+/* ***Rodapé*** */
 #container-rodape {
     clear: both;
     background: #294c71;
