@@ -85,15 +85,20 @@ body.foto #navegacao a#fotos{
     width: 270px;
     margin: 0 0 20px 195px;
     float: left;
-    background: green;
-    
+    background: green; 
+}
+#duas-colunas #primario {
+    width: 555px;
+}
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
 }
 #secundario {
     width: 270px;
     margin:0 0 20px 15px;
     float: left;
-    background: hotpink;
-    
+    background: hotpink;  
 }
 #lateral {
     width: 180px;
