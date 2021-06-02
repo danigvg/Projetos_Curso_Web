@@ -85,7 +85,6 @@ body.foto #navegacao a#fotos{
     width: 270px;
     margin: 0 0 20px 195px;
     float: left;
-    background: green; 
 }
 #duas-colunas #primario {
     width: 555px;
@@ -97,8 +96,7 @@ body.foto #navegacao a#fotos{
 #secundario {
     width: 270px;
     margin:0 0 20px 15px;
-    float: left;
-    background: hotpink;  
+    float: left; 
 }
 #lateral {
     width: 180px;
@@ -175,6 +173,20 @@ img.imagem-principal {
     margin-top: 5px;
 }
 
+/* *** Links Caixas *** */
+
+#primario .caixa-conteudo a, #secundario .caixa-conteudo a {
+    font-weight: bold;
+    color:#b10333;
+    text-decoration: none;
+}
+#primario .caixa-conteudo a:hover, #secundario .caixa-conteudo a:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#b10333;
+    text-decoration:underline;
+}
+
 /* *** Formatação Cabeçalhos *** */
 h3{
     text-transform: uppercase;
@@ -182,13 +194,17 @@ h3{
     font-size: 0.85em;
     font-family: 'Fjalla One';
     font-weight: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     padding: 3px;
     margin-left: 2px;
 }
 .destaque h3 {
     color: #fff;
     background: #b10333;
+}
+.entrevista h3 {
+    color: #000;
+    background: #de003e
 }
 /* ***Rodapé*** */
 #container-rodape {
