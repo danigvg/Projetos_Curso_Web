@@ -168,7 +168,28 @@ input.submit{
     margin-top:4px;
     padding: 5px;
 }
+/* ***Fomatação imagens*** */
+img.imagem-principal {
+    width: 98%;
+    border: 3px ridge #dfdfdf;
+    margin-top: 5px;
+}
 
+/* *** Formatação Cabeçalhos *** */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.85em;
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 3px;
+    margin-left: 2px;
+}
+.destaque h3 {
+    color: #fff;
+    background: #b10333;
+}
 /* ***Rodapé*** */
 #container-rodape {
     clear: both;
