@@ -236,6 +236,18 @@ h3{
     background: #eee;
 }
 
+/* *** Formatações textos *** */
+body#uma-coluna .caixa-conteudo img{
+    margin: 5px 0 15px 0;
+}
+
+body#uma-coluna .caixa-conteudo p,
+body#duas-colunas .caixa-conteudo p {
+    margin: 5px;
+    text-indent: 25px;
+}
+
+
 /* ***Rodapé*** */
 #container-rodape {
     clear: both;
