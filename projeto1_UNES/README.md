@@ -18,9 +18,15 @@ O projeto é voltado para quem está iniciando seus estudos em HTML, pois com al
 
 <hr>
 
-## Dados pessoais
+## :mailbox: Dados
 
-[Daniella Gama](https://www.linkedin.com/in/daniella-gomes-vieira-gama-71572718b/) - E-mail: danigvg@outlook.com
+**Links para contato:**
 
-https://github.com/danigvg/Projeto1_UNES
->>>>>>> remotes/OldRepo/master
+<p>
+   <a href="https://www.linkedin.com/in/danigvg/" alt="Linkedin">
+     <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danigvg/" /></a>
+   <a href="danigvg@gmail.com" alt="Gmail">
+     <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=danigvg@gmail.com"/></a>   
+</p>
+
+
