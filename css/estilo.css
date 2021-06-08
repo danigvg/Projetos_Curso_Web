@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Roboto', 'Fjalla One', Verdana, Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x top left;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;   
+}
+
+#topo{
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+    /*border: 1px solid red;*/
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png);
+    text-indent: -3000px;
+    font-family: 'Fjalla One';
+}
+
+/* *** Barra de Navegeção *** */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    font-size: 0.9em;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.8px;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.inter #navegacao a#inter,
+body.econo #navegacao a#econo,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.foto #navegacao a#fotos{
+    color:#fff;
+    background: #d1023d;
+    cursor: text;
+}
+
+/* *** Configuração Layout 3 Colunas *** */
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+#duas-colunas #primario {
+    width: 555px;
+}
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+#secundario {
+    width: 270px;
+    margin:0 0 20px 15px;
+    float: left; 
+}
+#lateral {
+    width: 180px;
+    margin:0 0 20px -750px;
+    float: left;
+}
+/* *** Caixa*** */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+h2 {
+    font-size: 1.2em;
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    padding: 5px;
+    letter-spacing: 2px;
+    background: #294c71;
+    color: #fff;
+}
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* *** Menu Lateral *** */
+#lateral ul a {
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #ebebeb;
+}
+#lateral ul a:hover{
+    color: #8f8f8f;
+    background:url(../imagens/marcador.png) no-repeat left center;
+    text-indent: 18px;
+}
+
+/* *** Formatação da caixa News *** */
+label{
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+input {
+    width: 125px;
+    font-size: 0.8em;
+    background: #fff;
+    border: 1px outset #8f8f8f;
+    border-radius: 3px;
+    padding: 5px;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px outset #870529;
+    border-radius: 4px;
+    margin-top:4px;
+    padding: 5px;
+}
+/* ***Fomatação imagens*** */
+img.imagem-principal {
+    width: 98%;
+    border: 3px ridge #dfdfdf;
+    margin-top: 5px;
+}
+
+/* *** Links Caixas *** */
+.destaque .caixa-conteudo a, .entrevista .caixa-conteudo a {
+    font-weight: bold;
+    color:#b10333;
+    text-decoration: none;
+}
+.destaque .caixa-conteudo a:hover, .entrevista .caixa-conteudo a:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#b10333;
+    text-decoration:underline;
+}
+
+/* *** Formatação Cabeçalhos *** */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.85em;
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    padding: 3px;
+    margin-left: 2px;
+}
+.destaque h3 {
+    color: #fff;
+    background: #b10333;
+}
+.entrevista h3 {
+    color: #000;
+    background: #de003e
+}
+
+/* *** Formatando lista de noticias *** */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img {
+    height: 90%; 
+    float: left;
+    margin: 5px; 
+      
+}
+#lista-noticias li a {
+    text-decoration: none;
+}
+#lista-noticias li a h3{
+    font-size: 0.85em;
+    letter-spacing: 0.9px; 
+    padding: 0; 
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-weight: normal;
+    color: #000;
+    font-size: 0.8em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+}
+
+/* *** Formatações textos *** */
+body#uma-coluna .caixa-conteudo img{
+    margin: 5px 0 15px 0;
+}
+
+body#uma-coluna .caixa-conteudo p,
+body#duas-colunas .caixa-conteudo p {
+    margin: 5px;
+    text-indent: 25px;
+}
+
+
+/* ***Rodapé*** */
+#container-rodape {
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color:#fff;
+}
