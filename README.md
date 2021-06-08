@@ -1,65 +1,26 @@
-#projetos_curso_web
-![GitHub repo size](https://img.shields.io/github/repo-size/danigvg/projetos_curso_web?style=for-the-badge)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/danigvg/projetos_curso_web?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/danigvg/projetos_curso_web?color=blueviolet&style=for-the-badge)
+# Projeto1_UNES
+>Projeto 1 da página institucional para a universidade
+>fictícia UNES.
+
+Primeiro projeto do curso de desenvolvimento web do [Udemy](https://www.udemy.com/course/web-completo/), com finalidade de por em prática os conhecimentos adquiridos na seção 3. 
+Utilizando apenas com HTML básico.
+<br>
+
+![Página incial](imagens/pagina1.png)
+![Página quem somos](imagens/pagina2.png)
+![Página contato](imagens/pagina3.png)
+
 <hr>
 
-![Curso Web](imagens/front2.jpg)
->Este repositório visa mostrar, através dos projetos propostos, toda minha evolução ao longo dos meus estudos no curso de desenvolvimento web.
+## Objetivo
 
-## :chart_with_upwards_trend: Evolução
-Segue os módulos do curso, e seus respectivos projetos:
- - **Módulo 1**
-    - [x] Projeto UNES (Página institucional de uma universidade)
- - **Módulo 2**
-    - [x] Projeto Anna Bella (Página web pessoal)
-    - [x] Projeto TecBlog (Blog de tecnologia)
- - **Módulo 3**
-    - [x] Projeto Notícias da Cidade (Portal de notícias)
-    - [ ] Projeto Chalé Hotel (Página publicitária)
- - **Módulo 4**
-    - [ ] Projeto Museu Nacional
- - **Módulo 5**
-    - [ ] Projeto Finans
-    - [ ] Spotify Clone
- - **Módulo 6**
-    - [ ] App Calculadora
-    - [ ] App Game Mata Mosquito
- - **Módulo 7**
-    - [ ] App Orçamento Pessoal (App para controle pessoal de finanças)
- - **Módulo 8**
-    - [ ] App Help Desk (App para abertura e acompanhamento de suportes técnicos)
- - **Módulo 9**
-    - [ ] App Send Mail
- - **Módulo 10**
-    - [ ] Projeto Banco de Dados Loja Virtual (Implementação do banco de dados de uma loja virtual)
- - **Módulo 11**
-    - [ ] App Pesquisa Endereço
- - **Módulo 12**
-    - [ ] App Lista de Tarefas
- - **Módulo 13**
-    - Não possui projeto.
- - **Módulo 14**
-    - [ ] App Dashboard
- - **Módulo 15**
-    - [ ] Projeto miniframework
- - **Módulo 16**
-    - [ ] Projeto Twitter Clone
- - **Módulo 17**
-    - [ ] Projeto API de Produtos
- - **Módulo 18**
-    - [ ] Projeto 10 minutos exercícios
- - **Módulo 19**
-    - Não possui projeto.
- - **Módulo 20**
-    - [ ] Projeto Gasolina ou Álcool
+O projeto é voltado para quem está iniciando seus estudos em HTML, pois com algumas tags básicas foi possível criar um site com menu, logo, capa, uma lista de vantagens e um formulário para contato. O site foi estruturado tendo como base a tag `table`, porém não é a recomendado este método para projetos mais profissionais.
+
 <hr>
 
-## :mailbox: Contato
-Se quiser conhecer um pouco mais sobre mim, ou quiser conversar sobre minha experiência com o curso e meus estudos, basta me chamar em um dos links abaixo.
+## Dados pessoais
 
-![LinkedIn](https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danigvg/) ![Gmail](https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=danigvg@gmail.com)
+[Daniella Gama](https://www.linkedin.com/in/daniella-gomes-vieira-gama-71572718b/) - E-mail: danigvg@outlook.com
 
-#### Créditos
-
-<a href='https://br.freepik.com/vetores/teia'>O vetor utilizado foi criado por Stories - br.freepik.com</a>
+https://github.com/danigvg/Projeto1_UNES
+>>>>>>> remotes/OldRepo/master
