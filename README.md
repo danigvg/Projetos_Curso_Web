@@ -59,7 +59,12 @@ Segue os módulos do curso, e seus respectivos projetos:
 ## :mailbox: Contato
 Se quiser conhecer um pouco mais sobre mim, ou quiser conversar sobre minha experiência com o curso e meus estudos, basta me chamar em um dos links abaixo.
 
-![LinkedIn](https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danigvg/) ![Gmail](https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=danigvg@gmail.com)
+<p>
+   <a href="https://www.linkedin.com/in/danigvg/" alt="Linkedin">
+     <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danigvg/" /></a>
+   <a href="danigvg@gmail.com" alt="Gmail">
+     <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=danigvg@gmail.com"/></a>   
+</p>
 
 #### Créditos
 
