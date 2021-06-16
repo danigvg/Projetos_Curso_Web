@@ -11,7 +11,6 @@ body {
     margin: 15px;
 }
 #container {
-    border: 1px solid red;
     background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;    
     margin: 0px auto;
     min-width: 740px;
@@ -176,4 +175,6 @@ p {
 #rodape {
     clear: both;
     background: #fff url(../imagens/bg-rodape.png) repeat-x top left;
+    padding: 15px 15px 10px 15px;
+    color: #8B8448;
 }
