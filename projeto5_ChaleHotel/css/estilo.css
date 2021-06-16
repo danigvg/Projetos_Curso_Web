@@ -12,12 +12,14 @@ body {
 }
 #container {
     border: 1px solid red;
-    background: #ede9cc;    
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;    
     margin: 0px auto;
     min-width: 740px;
     max-width: 1185px;
 }
-
+ul{
+    list-style: none; 
+}
 /* ***Formatações topo*** */
 #topo{
     background: #D9CD91;
@@ -86,7 +88,6 @@ body {
 }
 #menu-servicos ul{
     float: left;
-    list-style: none; 
 }
 #menu-servicos ul li {
     margin: 3px 0px 3px 0px;
@@ -103,7 +104,76 @@ body {
     background:#FCF5B0;
     padding: 5px;
 }
-
 #menu-servicos img{
     float:right;
+}
+
+/* ***Formatação Conteúdos*** */
+#area-conteudo{
+    padding-top: 8px;
+    background: url(../imagens/bg-rodape.png) ;
+}
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* **Conteudo principal** */
+#conteudo-principal{
+    width: 50%;
+    float: left;
+    background-color: #EFEACC;
+    box-shadow: inset 0px 15px 15px -10px rgba(189, 181, 140, 0.98);   
+}
+#conteudo-principal h2{
+    margin: 20px 8px 8px 15px;
+    color: #6e672c;
+    font-size: 1.3em;
+}
+
+/* **Conteudo Lateral** */
+#conteudo-lateral{
+    width: 50%;
+    float: right;
+    background-color: #DED9B7;
+    box-shadow: inset 0px 15px 15px -10px rgba(189, 181, 140, 0.98);
+}
+#beneficios {
+    margin: 15px auto;
+}
+#beneficios li{
+    border-bottom: 1px solid #f3efcb;
+    padding: 8px 4px 8px 8px;
+    height: 6em;
+}
+#beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+#beneficios li a h3 {
+    color: #6e672c;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-right: 4px;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+} 
+#beneficios li a p {
+    font-size: 0.8em;
+} 
+.imagens-lateral {
+    float: left;
+    margin-right: 8px;
+}
+/* ***Formatações textos*** */
+p {
+    color: #1b1a0d;
+    padding: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 1em;
+}
+
+/* ***Formatação Rodapé*** */
+#rodape {
+    clear: both;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top left;
 }
