@@ -158,13 +158,15 @@ ul{
 } 
 #beneficios li a p {
     font-size: 0.8em;
+    color: #1b1a0d;
+    font-family: 'Trebuchet MS';
 } 
 .imagens-lateral {
     float: left;
     margin-right: 8px;
 }
 /* ***Formatações textos*** */
-p {
+#conteudo-principal p{
     color: #1b1a0d;
     padding: 5px;
     font-family: 'Trebuchet MS';
@@ -177,4 +179,52 @@ p {
     background: #fff url(../imagens/bg-rodape.png) repeat-x top left;
     padding: 15px 15px 10px 15px;
     color: #8B8448;
+}
+
+/* ***Estilo form*** */
+#conteudo-reservas {
+    width: 100%;
+    float: left;
+    background-color: #EFEACC;
+    box-shadow: inset 0px 15px 15px -10px rgba(189, 181, 140, 0.98);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+form{
+    background: #DED9B7;
+    box-shadow: 1px 1px 4px 0px rgba(84, 78, 38, 0.65);
+    padding: 5px;
+}
+fieldset{
+    border: none;
+    margin: 10px;
+}
+.form-estilo{
+    border-bottom: 1px solid #f3efcb;
+    margin: 5px 15px;
+    font-size: 0.9em;
+    color: #222111;
+}
+.form-estilo label, .form-estilo input {
+    margin: 2px;
+}
+.form-estilo input{
+    border: 1px solid #b1a661;
+    border-radius: 3px;
+    background: #f0eac7;
+    padding: 4px;
+    color: #575122;
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+}
+
+ legend:first-child {
+    color: #888246;
+    font-size: 1.15em;
+    margin-bottom: 7px;
+}
+#reserva-form h2{
+    border-bottom: 1px solid #f3efcb;
+    color: #6e672c;
+    font-size: 1.3em;
 }
