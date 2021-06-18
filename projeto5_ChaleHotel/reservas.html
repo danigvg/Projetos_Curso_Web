@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>Chalé Hotel</title>
+    <!--Estilo personalizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body id="reservas">
+    <!--Ínicio Container-->
+    <div id="container">
+        <!--Ínicio Topo-->
+        <div id="topo">
+            <div id="area-logo">
+                <h1 class="logo"><a href="#">Chalé Hotel</a></h1>
+            </div>
+            <div id="area-menu">
+                <div id="conteudo-menu">
+                    <div id="menu-cidades">
+                        <span class="locais">Rio de Janeiro &bull; São Paulo &bull; Belo Horizonte</span>
+                        <a class="botao-reserva" href="reservas.html">Reservar</a>
+                    </div>
+                    <div id="menu-servicos">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Imprensa</a></li>
+                            <li><a href="#">Gastronomia</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                        <img src="imagens/depoimento.png" alt="Depoimentos">
+                    </div>
+                </div>
+            </div>
+        </div><!--Fim Topo-->
+        <div id="area-conteudo"><!--Ínicio Conteúdo-->
+            <div id="conteudo-reservas">
+                <div class="conteudo">
+                    <form id="reserva-form" action="" method="POST">
+                        <fieldset>
+                            <legend><h2>Reserva Online</h2></legend>
+                            <div class="form-estilo">
+                                <fieldset>
+                                    <legend><h3>Escolha uma data</h3></legend>
+                                    <label for="dEntrada">Data de entrada :</label>
+                                    <input type="date" name="dCheckin" min="2021-06-17" max="2026-12-31" id="dEntrada">
+                                    <label for="dSaida">Data de saida :</label>
+                                    <input type="date" name="dCheckout" min="2021-06-17" max="2026-12-31" id="dSaida"><br>
+                                </fieldset>
+                            </div>
+                            <div class="form-estilo">
+                                <fieldset>
+                                    <legend>
+                                        <h3>Quantidade de pessoas:</h3>
+                                    </legend>
+                                    <label for="qAdultos">Adultos:</label>
+                                    <input type="number" name="nAdultos" id="qAdultos" min="1" max="100">
+                                    <label for="qCrianca">Crianças:</label>
+                                    <input type="number" name="nCriancas" id="qCrianca" min="0" max="100">
+                                </fieldset>
+                            </div>
+                            <div class="form-estilo">
+                                <fieldset>
+                                    <legend><h3>Escolha o Chalé:</h3></legend>
+                                    <input type="radio" name="tChale" id="chaleB"><label for="chaleB">Chalé Basic</label>
+                                    <input type="radio" name="tChale" id="chaleC"><label for="chaleC">Chalé Confort</label>
+                                    <input type="radio" name="tChale" id="chaleP"><label for="chaleP">Chalé Premium</label>
+                                </fieldset>
+                            </div>       
+                            <div class="form-estilo">
+                                <fieldset>
+                                    <legend><h3>Dados para contato:</h3></legend>
+                                    <p>
+                                        <label for="cnome">Nome:</label>
+                                        <input type="text" name="tnome" id="cnome">
+                                    </p>
+                                    <p>
+                                        <label for="csobrenome">Sobrenome:</label>
+                                        <input type="text" name="tsobrenome" id="csobrenome">
+                                    </p>
+                                    <p>
+                                        <label for="ctel">Telefone:</label>
+                                        <input type="tel" name="ttel" id="ctel">
+                                    </p>
+                                    <p>
+                                        <label for="cemail">Email:</label>
+                                        <input type="email" name="temail" id="cemail">
+                                    </p>
+                                </fieldset>
+                            </div>
+                            <input type="submit" value="Reservar" id="bEnviar" class="botao-reserva">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Ínicio Rodapé-->
+        <div id="rodape">
+            <span>&copy; Copyright 2000-2020 Chalé Hotel</span>
+        </div><!--Fim Rodapé-->
+
+    </div><!--Fim Container-->
+</body>
+</html>
