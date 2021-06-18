@@ -157,6 +157,7 @@ ul{
     background: url(../imagens/ornamento.png) no-repeat center right;
 } 
 #beneficios li a p {
+    padding-top: 5px;
     font-size: 0.8em;
     color: #1b1a0d;
     font-family: 'Trebuchet MS';
