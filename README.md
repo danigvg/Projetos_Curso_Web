@@ -11,13 +11,13 @@
 ## :chart_with_upwards_trend: Evolução
 Segue os módulos do curso, e seus respectivos projetos:
  - **Módulo 1**
-    - [x] Projeto UNES (Página institucional de uma universidade)
+    - [x] [Projeto UNES](https://github.com/danigvg/projetos_curso_web/tree/master/projeto1_UNES) (Página institucional de uma universidade)
  - **Módulo 2**
-    - [x] Projeto Anna Bella (Página web pessoal)
-    - [x] Projeto TecBlog (Blog de tecnologia)
+    - [x] [Projeto Anna Bella](https://github.com/danigvg/projetos_curso_web/tree/master/projeto2_AnaBella) (Página web pessoal)
+    - [x] [Projeto TecBlog](https://github.com/danigvg/projetos_curso_web/tree/master/projeto3_TecBlog) (Blog de tecnologia)
  - **Módulo 3**
-    - [x] Projeto Notícias da Cidade (Portal de notícias)
-    - [ ] Projeto Chalé Hotel (Página publicitária)
+    - [x] [Projeto Notícias da Cidade](https://github.com/danigvg/projetos_curso_web/tree/master/projeto4_NoticiaCidade) (Portal de notícias)
+    - [x] [Projeto Chalé Hotel](https://github.com/danigvg/projetos_curso_web/tree/master/projeto5_ChaleHotel) (Página publicitária)
  - **Módulo 4**
     - [ ] Projeto Museu Nacional
  - **Módulo 5**
