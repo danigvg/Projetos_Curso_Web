@@ -24,11 +24,13 @@ a{
     padding: 20px;
 }
 #logo{
-    color: white;
     font-size: 2.5em;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+#logo a{
+    color: white;
 }
 #logo span{
     color: #A86E13;
