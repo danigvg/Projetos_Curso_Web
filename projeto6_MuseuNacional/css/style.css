@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* *** Fomatações Gerais *** */
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x ;
+    font: 12px 'Montserrat', 'Lucida Grande', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    margin: 0 auto;
+    width: 1080px;
+}
+
+/* *** Formatações cabeçalho*** */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#logo{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#logo span{
+    color: #A86E13;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    margin: 2px;
+}
+.menu a{
+    display: block;
+    color: #A86E13;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
