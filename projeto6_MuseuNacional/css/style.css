@@ -48,5 +48,17 @@ a{
     font-size: 1.2em;
     font-weight: 500;
 }
+/* ***Formatações conteúdo *** */
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+/* *** Conteudo Principal *** */
 
 
+/* *** Conteudo Lateral *** */
+aside{
+    flex-basis: 349px;
+    background: #ebe7dd;
+}
