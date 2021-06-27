@@ -62,15 +62,18 @@ aside{
     flex-basis: 349px;
     background: #ebe7dd;
 }
+
 section#visitas {
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-#visitas h4{
+#visitas h4, #section-galeria h4 a{
     color: #A86E13;
     font-size: 1.3em;
     font-weight: 600;
+}
+#visitas h4{
     padding-left: 6px;
     margin: 15px 0px 10px 0px;
 }
@@ -83,7 +86,6 @@ fieldset{
 #visitas fieldset label {
     font-weight: 500;
 }
-
 #data , #qtd {
     background: #ece9e2;
     padding: 2px 3px 2px 3px;
@@ -110,4 +112,29 @@ fieldset{
     box-shadow: -1px 1px 1px 0px rgba(102, 95, 73, 0.50), 
                 1px -1px 1px 0px rgba(102, 95, 73, 0.50), 
                 1px 1px 4px 1px rgba(102, 95, 73, 0.30);
+}
+
+#section-galeria{
+    padding: 10px 27px;
+}
+#section-galeria h4 {
+    padding-left: 6px;
+    margin: 10px 0;
+}
+#section-galeria h4 a:hover{
+    text-decoration: underline;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+.galeria-imagem{
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    padding: 15px;
+    margin: 5px 0;
+}
+a.galeria-imagem img{
+   margin: 5px 3px;
 }
