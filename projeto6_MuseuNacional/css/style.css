@@ -41,12 +41,22 @@ a{
 .menu li {
     margin: 2px;
 }
+/* ** Links header e foooter ** */
 .menu a{
     display: block;
-    color: #A86E13;
-    padding: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    padding: 10px;  
+}
+.menu a , footer a{    
+    color: #A86E13;  
     font-weight: 500;
+    text-transform: uppercase;
+}
+footer a{
+    padding: 5px;
+}
+.menu a:hover ,footer a:hover{
+    text-decoration: underline;
 }
 /* ***Formatações conteúdo *** */
 
@@ -150,6 +160,7 @@ fieldset{
     text-shadow: 2px 2px 2px rgba(102, 95, 73, 0.50);
     width: 100%;
     height: 30px;
+    cursor: pointer;
     box-shadow: -1px 1px 1px 0px rgba(102, 95, 73, 0.50), 
                 1px -1px 1px 0px rgba(102, 95, 73, 0.50), 
                 1px 1px 4px 1px rgba(102, 95, 73, 0.30);
@@ -178,4 +189,12 @@ fieldset{
 }
 a.galeria-imagem img{
    margin: 5px 3px;
+}
+
+/* *** Configurações Footer *** */
+footer{
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    padding: 10px 0px 25px 0px;
+    margin-top: 20px;
+    text-align: center;
 }
