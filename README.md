@@ -1,7 +1,7 @@
 # projetos_curso_web
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/danigvg/projetos_curso_web?style=for-the-badge)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/danigvg/projetos_curso_web?style=for-the-badge)
+
 ![GitHub language count](https://img.shields.io/github/languages/count/danigvg/projetos_curso_web?color=blueviolet&style=for-the-badge)
 <hr>
 
@@ -19,7 +19,7 @@ Segue os módulos do curso, e seus respectivos projetos:
     - [x] [Projeto Notícias da Cidade](https://github.com/danigvg/projetos_curso_web/tree/master/projeto4_NoticiaCidade) (Portal de notícias)
     - [x] [Projeto Chalé Hotel](https://github.com/danigvg/projetos_curso_web/tree/master/projeto5_ChaleHotel) (Página publicitária)
  - **Módulo 4**
-    - [ ] Projeto Museu Nacional
+    - [x] [Projeto Museu Nacional](https://github.com/danigvg/projetos_curso_web/tree/master/projeto6_MuseuNacional)
  - **Módulo 5**
     - [ ] Projeto Finans
     - [ ] Spotify Clone
