@@ -14,11 +14,16 @@
     <!--Estilo customizado-->
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
     <title>Finans - Finanças pessoais</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    <header><!--Ínicio cabeçalho-->
+      <nav class="navbar navbar-expand-md navbar-light bg-warning">
         <div class="container">
           <a href="#">
             <img src="img/logo.png" alt="Finans" width="142">
@@ -29,7 +34,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="nav-target">
-            <ul class="navbar-nav ml-auto">
+            <ul id="nav-topo" class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="#" class="nav-link ml-3">Home</a>
               </li>
@@ -42,13 +47,52 @@
               <li class="nav-item">
                 <a href="#" class="nav-link ml-3">Preço</a>
               </li>
+              <li class="nav-item">
+                <button class="btn btn-outline-light btn-block btn-reset-margin ml-3">Entrar</button>
+              </li>
             </ul>
-            <button class="btn btn-outline-light ml-3">Entrar</button>
+            
           </div>
         </div>
 
       </nav>
-    </header>
+    </header><!--Fim cabeçalho-->
+
+    <section id="home" class="bg-warning text-white"><!--Ínicio seção HOME-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">Suas contas descomplicadas</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate eos molestias libero rem fugit quod. Porro ab nihil quaerat at!</p>
+              <form class="mt-4 mb-4" action="">
+                <div class="input-group">
+                  <input class="form-control" type="email" name="demail" id="email" placeholder="Digite seu e-mail">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary">Cadastre-se</button>
+                  </div>
+                </div>
+              </form>
+              <p>Disponível para:
+                <a class="btn btn-outline-light" href="#">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a class="btn btn-outline-light" href="#">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">            
+              <picture class="d-none d-md-block">
+                <source media="(max-width:993px)" srcset="img/capa-mulher-80.png" type="image/png">
+                <img src="img/capa-mulher.png" alt=""> 
+              </picture>          
+          </div>
+        </div>
+
+      </div>
+    </section><!--Fim seção HOME-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
