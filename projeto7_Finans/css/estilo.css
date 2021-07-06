@@ -5,10 +5,11 @@ body{
     font-family:'Roboto', sans-serif;
 }
 
-h1.display-4 {
+h1.display-4, div.align-self-center h2 {
     font-family:'Archivo Narrow', sans-serif;
     letter-spacing: 1px;
 }
+
 
 @media only screen and (max-width: 993.98px) {
     .display-4{
