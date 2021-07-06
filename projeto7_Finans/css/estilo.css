@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Roboto:wght@300;400&display=swap');
+
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+h1.display-4 {
+    font-family:'Archivo Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 993.98px) {
+    .display-4{
+        font-size: 48px !important;
+        margin-top: 20px;
+    }
+    .lead{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    #nav-topo li:hover{
+        background-color: #f3d154;
+    }
+    
+    .btn-reset-margin {
+        margin: 0 !important;
+    }
+    .display-4{
+        font-size: 40px !important;
+        margin-top: 20px;
+    }
+    .lead{
+        font-size: 16px;
+    }
+}
