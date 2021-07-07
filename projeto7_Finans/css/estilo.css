@@ -5,11 +5,15 @@ body{
     font-family:'Roboto', sans-serif;
 }
 
-h1.display-4, div.align-self-center h2 {
+h1.display-4, section.caixa h2 {
     font-family:'Archivo Narrow', sans-serif;
     letter-spacing: 1px;
 }
 
+.caixa{
+    border-bottom: 1px solid #e5e5e5e1;
+    padding: 10px;
+}
 
 @media only screen and (max-width: 993.98px) {
     .display-4{
@@ -32,8 +36,15 @@ h1.display-4, div.align-self-center h2 {
     .display-4{
         font-size: 40px !important;
         margin-top: 20px;
+        text-align: center;
     }
     .lead{
         font-size: 16px;
+    }
+   .caixa h2, p{
+        text-align: center;
+    }
+    .ordenacao {
+        order: -1;
     }
 }
