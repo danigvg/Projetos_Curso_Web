@@ -15,6 +15,11 @@ h1.display-4, section.caixa h2, section.caixa h3 {
     padding: 10px;
 }
 
+footer p a{
+    padding: 5px;
+    margin: 3px 10px;
+}
+
 @media only screen and (max-width: 993.98px) {
     .display-4{
         font-size: 48px !important;
@@ -49,5 +54,11 @@ h1.display-4, section.caixa h2, section.caixa h3 {
     }
     .ordenacao {
         order: -1;
+    }
+    
+    footer p a{
+        font-size: 14px;
+        margin: 3px 5px;
+        padding: 2px;
     }
 }
