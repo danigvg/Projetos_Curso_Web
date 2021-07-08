@@ -21,7 +21,7 @@ Segue os módulos do curso, e seus respectivos projetos:
  - **Módulo 4**
     - [x] [Projeto Museu Nacional](https://github.com/danigvg/projetos_curso_web/tree/master/projeto6_MuseuNacional)
  - **Módulo 5**
-    - [ ] Projeto Finans
+    - [x] [Projeto Finans](https://github.com/danigvg/projetos_curso_web/tree/master/projeto7_Finans)
     - [ ] Spotify Clone
  - **Módulo 6**
     - [ ] App Calculadora
