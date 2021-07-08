@@ -5,7 +5,7 @@
 
 ## :camera: O Projeto
 
-Esta imagem motra a exibição do projeto em  3 tipos diferentes larguras de dispositivos.
+A imagem motra a exibição do projeto em  3 tipos diferentes larguras de dispositivos.
 
 ![Finans](img/projeto7_Finans.gif)
 
@@ -13,6 +13,12 @@ Esta imagem motra a exibição do projeto em  3 tipos diferentes larguras de dis
 
 ## :clipboard: Objetivo
 O projeto teve como intuito a pratica dos conhecimentos adquiridos sobre responsividade, media queries e como criar aplicações reponsivas com o uso da framework Bootstrap.
+
+<hr>
+
+## :pencil: Licenças
+
+- [FontAwesome](https://github.com/danigvg/projetos_curso_web/blob/master/projeto7_Finans/fontawesome/LICENSE.txt) 
 
 <hr>
 
