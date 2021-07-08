@@ -5,7 +5,7 @@
 
 ## :camera: O Projeto
 
-A imagem motra a exibição do projeto em  3 tipos diferentes larguras de dispositivos.
+A imagem mostra a exibição do projeto em  3 diferentes tipos de larguras de dispositivos.
 
 ![Finans](img/projeto7_Finans.gif)
 
