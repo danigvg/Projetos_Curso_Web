@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@600;700;800;900&display=swap');
 
-html, body{
+html, body, #principal{
     height: 100vh;
 }
 
 body {
     font-family: 'DM Sans', Helvetica, sans-serif; 
+    font-weight: 500;
     background:url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+    
 }
 
 /* *** Header Navbar*** */
@@ -25,3 +27,64 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #9bf0e1;
 }
+
+/* *** Conteudo Principal *** */
+
+.banner-principal{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight:800;
+    font-size: 6em;  
+    margin-bottom: 40px;
+}
+.btn-custom{
+    color: white;
+    font-weight: 500;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: background 0.4s, border 0.4s, color 0.4s;
+}
+.btn-roxo{
+    background: #7c25f8;
+    border: 2px solid #7c25f8;
+}
+.btn-roxo:hover{
+    color: white;
+    background: #5d0bda;
+    border: 2px solid #5d0bda;
+}
+.btn-branco{
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    color: black;
+    background: white;
+}
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+#carouselBannerPrincipal a.btn-branco span {
+    padding-left: 5px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { }
+
+/*  Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {  }
+   
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
