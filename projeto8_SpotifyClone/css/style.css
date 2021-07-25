@@ -67,8 +67,7 @@ p{
 
 .banner-principal{
     color: white;
-    font-weight:800;
-    font-size: 6em;  
+    font-weight:800; 
     margin-bottom: 40px;
 }
 .btn-custom{
@@ -99,6 +98,10 @@ p{
 }
 .btn-check:focus+.btn, .btn:focus{
     box-shadow: none;
+}
+.btn-group-lg>.btn, .btn-lg{
+    font-size: 0.8em;
+    margin: 5px 3px;
 }
 #carouselBannerPrincipal a.btn-branco span {
     padding-left: 5px;
@@ -175,12 +178,35 @@ p{
     align-items: center;
 }
 
+@media (min-width: 425px){
+    .banner-principal{
+        font-size: 2em;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {  }
+@media (min-width: 576px) { 
+    .btn-group-lg>.btn, .btn-lg{
+        font-size: 1em;
+    } 
+    .banner-principal{        
+        font-size: 3em;          
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { }
+@media (min-width: 768px) { 
+    .banner-principal{        
+        font-size: 3.7em;          
+    }
+    .btn-group-lg>.btn, .btn-lg{
+        font-size: 1.1em;
+        margin: 0;
+    } 
+    .fa-2x{
+        font-size: 3em;
+    }
+}
 
 /*  Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
@@ -189,10 +215,21 @@ p{
         width: 2px;
         margin: 12px 15px;
     }
+    .banner-principal{
+        font-size: 4.7em;
+    }
+    .btn-group-lg>.btn, .btn-lg{
+        font-size: 1.25em;
+        margin: 0 5px;
+    } 
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) {  }
+@media (min-width: 1200px) {  
+    .banner-principal{        
+        font-size: 6em;          
+    }
+}
    
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
