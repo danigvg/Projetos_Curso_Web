@@ -28,17 +28,17 @@ h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -0.03em;
 }
-h2 {
-    font-size: 3em;
+h2, h3{
     font-weight: 700;
 }
+h2{
+    font-size: 1.5em;
+}
 h3 {
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.25em;
     margin: 10px 0;
 }
 p{
-    font-size: 1.2em;
     margin-bottom: 25px;
 }
 
@@ -122,6 +122,9 @@ p{
 #recursos h2, #recursos h3 {
     color: #7C25F8;
 }
+.texto-recursos{
+    margin-top: 20px;
+}
 
 /* *** Facilidades *** */
 #facilidades h2{
@@ -186,6 +189,16 @@ p{
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+     /* *** Tipografia *** */
+     h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1em;
+    }
     .btn-group-lg>.btn, .btn-lg{
         font-size: 1em;
     } 
@@ -196,6 +209,13 @@ p{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+    /* *** Tipografia *** */
+    h3 {
+        margin: 0;
+    }
+    p{
+        margin-bottom: 10px;
+    }
     .banner-principal{        
         font-size: 3.7em;          
     }
@@ -210,11 +230,24 @@ p{
 
 /*  Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    /* *** Tipografia *** */
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 1.75em;
+    }
+    p{
+        font-size: 1em;
+    }
+    /* *** Menu Header *** */
     .nav-item-divisor {
         height: auto;
         width: 2px;
         margin: 12px 15px;
     }
+
+    /* *** Banner-Principal *** */
     .banner-principal{
         font-size: 4.7em;
     }
@@ -222,13 +255,33 @@ p{
         font-size: 1.25em;
         margin: 0 5px;
     } 
+
+    /* *** Recursos *** */
+    .texto-recursos{
+        margin-top: 0;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  
+    /* *** Tipografia *** */
+    h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 2em;
+        margin: 8px 0;
+    }
+    p{
+        font-size: 1.25em;
+        margin-bottom: 25px;
+    }
+   /* *** Principal *** */
     .banner-principal{        
         font-size: 6em;          
-    }
+    }  
+
 }
    
 /* XX-Large devices (larger desktops, 1400px and up)*/

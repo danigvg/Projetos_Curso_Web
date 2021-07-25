@@ -94,7 +94,7 @@
     <section id="recursos" class="caixas"><!--Recursos INICIO-->
         <div class="container">
             <div class="row ">
-                <div class="col-md-6">
+                <div class="col-md-6 d-none d-lg-block">
                     <div class="row imagens-recursos">
                         <img class="col-md-6 img-fluid" src="imagens/img1.jpg" alt="Justin Bieber - Purpose">
                         <img class="col-md-6 img-fluid" src="imagens/img2.jpg" alt="Zara Larsson -Lush Life">
@@ -103,7 +103,31 @@
                         <img class="col-md-6 img-fluid" src="imagens/img3.jpg" alt="Trapsoul">
                         <img class="col-md-6 img-fluid" src="imagens/img4.jpg" alt="Daya - EP">
                     </div>                    
-                </div>             
+                </div>
+                <div class="col-md-6 align-self-center d-lg-none "><!--Telas menores que lg-->
+                    <div id="carouselRecursos" class="carousel slide" data-bs-ride="carousel"> 
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselRecursos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselRecursos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselRecursos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselRecursos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="imagens/img1.jpg" class="img-fluid" alt="Justin Bieber - Purpose">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="imagens/img2.jpg" class="img-fluid" alt="Zara Larsson -Lush Life">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="imagens/img3.jpg" class="img-fluid" alt="Trapsoul">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/img4.jpg" class="img-fluid" alt="Daya - EP">
+                              </div>
+                          </div>
+                    </div>
+                </div><!--Telas menores que lg FIM-->           
                 
                 <div class="col-md-6 texto-recursos">
                     <h2>
