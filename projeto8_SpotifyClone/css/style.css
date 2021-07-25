@@ -17,6 +17,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link, .footer-list-link, .btn-footer {
     color: white;
+    font-size: 1.1em;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .footer-list-link:hover, .btn-footer:hover {
     color: #9bf0e1;
@@ -49,13 +50,17 @@ p{
 
 /* *** Header Navbar*** */
 .navbar-transparencia {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     padding: 15px 0px;
 }
-.nav-item-divisor {
-    width: 1px;
+.nav-item-divisor{
     background: #fff;
-    margin: 12px 15px;
+    height: 2px;
+    width: 20px;
+    margin: 12px 0px;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
 }
 
 /* *** Conteudo Principal *** */
@@ -142,7 +147,7 @@ p{
 .footer-nav h4{
     color: #828486ef;
     text-transform: uppercase;
-    font-size: 00.9em;
+    font-size: 0.8em;
     letter-spacing: -0.02em;
     padding: 8px;
     margin: 0;
@@ -150,7 +155,7 @@ p{
 .footer-nav ul{
     list-style: none;
     padding-left: 1.1em;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .footer-nav li{
     padding-bottom: 8px;
@@ -178,7 +183,13 @@ p{
 @media (max-width: 768px) { }
 
 /*  Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {  }
+@media (min-width: 992px) {
+    .nav-item-divisor {
+        height: auto;
+        width: 2px;
+        margin: 12px 15px;
+    }
+}
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {  }
