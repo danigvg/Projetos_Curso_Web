@@ -7,26 +7,18 @@ html, body, #principal{
 
 body {
     font-family: 'DM Sans', Helvetica, sans-serif; 
-    font-weight: 500;
     background:url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
     
 }
 
-/* *** Header Navbar*** */
-.navbar-transparencia {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 15px 0px;
-}
-.nav-item-divisor {
-    width: 1px;
-    background: #fff;
-    margin: 12px 15px;
-}
-.navbar-dark .navbar-nav .nav-link {
+
+/* *** Formatações LINKS *** */
+
+.navbar-dark .navbar-nav .nav-link, .footer-list-link, .btn-footer {
     color: white;
 }
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover, .footer-list-link:hover, .btn-footer:hover {
     color: #9bf0e1;
 }
 
@@ -46,8 +38,24 @@ h3 {
 }
 p{
     font-size: 1.2em;
-    font-weight: 400;
     margin-bottom: 25px;
+}
+
+/* *** Espaçamentos *** */
+.caixas{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* *** Header Navbar*** */
+.navbar-transparencia {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+}
+.nav-item-divisor {
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
 }
 
 /* *** Conteudo Principal *** */
@@ -94,13 +102,8 @@ p{
     width: 5%;
 }
 
-/* *** Espaçamentos recursos e facilidades *** */
-.caixas{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /* *** Recursos *** */
+
 #recursos {
     background: #fff;
 }
@@ -124,10 +127,49 @@ p{
 }
 .rotacionar{       
         padding-left: 30px;
+        
         transform: rotate(30deg) translate(30px, -40px) scale(0.95);
         -webkit-transform: rotate(30deg) translate(30px, -40px) scale(0.95);
         -moz-transform: rotate(30deg) translate(30px, -40px) scale(0.95);
 }
+
+/* *** Footer *** */
+#footer{
+    background: #000;
+    position: relative;
+    padding-top: 40px;
+}
+.footer-nav h4{
+    color: #828486ef;
+    text-transform: uppercase;
+    font-size: 00.9em;
+    letter-spacing: -0.02em;
+    padding: 8px;
+    margin: 0;
+}
+.footer-nav ul{
+    list-style: none;
+    padding-left: 1.1em;
+    font-size: 0.9em;
+}
+.footer-nav li{
+    padding-bottom: 8px;
+}
+.footer-nav a{
+    text-decoration: none;
+}
+.btn-footer{
+    background: #202020;
+    font-size: 2.2em;
+    width: 62px;
+    height: 62px;
+    margin: 0 6px;
+    border-radius: 50%;
+    display: inline-flex;   
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {  }
