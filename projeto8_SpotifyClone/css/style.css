@@ -136,12 +136,11 @@ p{
 #facilidades p{
     color: #fff;
 }
-.rotacionar{       
-        padding-left: 30px;
-        
-        transform: rotate(30deg) translate(30px, -40px) scale(0.95);
-        -webkit-transform: rotate(30deg) translate(30px, -40px) scale(0.95);
-        -moz-transform: rotate(30deg) translate(30px, -40px) scale(0.95);
+.rotacionar{            
+        flex-wrap: nowrap;   
+        transform: rotate(30deg) translate(-60px, -40px) scale(0.8);
+        -webkit-transform: rotate(30deg) translate(-60px, -40px) scale(0.8);
+        -moz-transform: rotate(30deg) translate(-60px, -40px) scale(0.8);
 }
 
 /* *** Footer *** */
@@ -185,6 +184,13 @@ p{
     .banner-principal{
         font-size: 2em;
     }
+    .rotacionar{     
+        padding:0 80px;         
+        justify-content: center;
+        transform: rotate(30deg) translate(10px, 0px) scale(0.8);
+        -webkit-transform: rotate(30deg) translate(10px, 0px) scale(0.8);
+        -moz-transform: rotate(30deg) translate(10px, 0px) scale(0.8);
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -226,6 +232,16 @@ p{
     .fa-2x{
         font-size: 3em;
     }
+
+    /* *** Facilidades *** */
+    .rotacionar{
+        padding: 0px;
+        flex-wrap:wrap ;
+        transform: rotate(30deg) translate(40px, 10px) scale(1);
+        -webkit-transform: rotate(30deg) translate(40px, 10px) scale(1);
+        -moz-transform: rotate(30deg) translate(40px, 10px) scale(1);
+    }
+
 }
 
 /*  Large devices (desktops, 992px and up)*/
@@ -260,6 +276,14 @@ p{
     .texto-recursos{
         margin-top: 0;
     }
+
+    /* *** Facilidades *** */
+    .rotacionar{
+        padding-left:30px;
+        transform: rotate(30deg) translate(20px, -30px) scale(0.95);
+        -webkit-transform: rotate(30deg) translate(20px, -30px) scale(0.95);
+        -moz-transform: rotate(30deg) translate(20px, -30px) scale(0.95);
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
@@ -281,7 +305,13 @@ p{
     .banner-principal{        
         font-size: 6em;          
     }  
-
+    
+    /* *** Facilidades *** */
+    .rotacionar{       
+        transform: rotate(30deg) translate(40px, -40px) scale(0.9);
+        -webkit-transform: rotate(30deg) translate(40px, -40px) scale(0.9);
+        -moz-transform: rotate(30deg) translate(40px, -40px) scale(0.9);
+    }
 }
    
 /* XX-Large devices (larger desktops, 1400px and up)*/
@@ -289,4 +319,11 @@ p{
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1210px;
     }
+    
+    /* *** Facilidades *** */
+    .rotacionar{       
+        transform: rotate(30deg) translate(60px, -40px) scale(0.95);
+        -webkit-transform: rotate(30deg) translate(60px, -40px) scale(0.95);
+        -moz-transform: rotate(30deg) translate(60px, -40px) scale(0.95);
+    }    
 }
