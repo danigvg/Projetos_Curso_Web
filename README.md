@@ -22,7 +22,7 @@ Segue os módulos do curso, e seus respectivos projetos:
     - [x] [Projeto Museu Nacional](https://github.com/danigvg/projetos_curso_web/tree/master/projeto6_MuseuNacional)
  - **Módulo 5**
     - [x] [Projeto Finans](https://github.com/danigvg/projetos_curso_web/tree/master/projeto7_Finans)
-    - [ ] Spotify Clone
+    - [x] [Spotify Clone](https://github.com/danigvg/projetos_curso_web/tree/master/projeto8_SpotifyClone)
  - **Módulo 6**
     - [ ] App Calculadora
     - [ ] App Game Mata Mosquito
