@@ -5,7 +5,7 @@
 
 ## :camera: O Projeto
 
-O gif a seguir mostra o resultado alcansado do projeto, em 4 tamanhos de telas diferentes.
+O gif a seguir mostra o resultado alcançado do projeto, em 4 tamanhos de telas diferentes.
 
 ![Spotify](imagens/projeto8_Spotify.gif)
 
