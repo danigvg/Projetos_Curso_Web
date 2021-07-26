@@ -179,7 +179,10 @@ p{
     justify-content: center;
     align-items: center;
 }
-
+.logo{
+    min-width: 142px;
+    margin:0 0 20px 0;
+}
 @media (min-width: 425px){
     .banner-principal{
         font-size: 2em;
@@ -237,9 +240,15 @@ p{
     .rotacionar{
         padding: 0px;
         flex-wrap:wrap ;
-        transform: rotate(30deg) translate(40px, 10px) scale(1);
-        -webkit-transform: rotate(30deg) translate(40px, 10px) scale(1);
-        -moz-transform: rotate(30deg) translate(40px, 10px) scale(1);
+        transform: rotate(30deg) translate(60px, -5px) scale(1);
+        -webkit-transform: rotate(30deg) translate(60px, -5px) scale(1);
+        -moz-transform: rotate(30deg) translate(60px, -5px) scale(1);
+    }
+
+    /* *** Footer *** */
+    
+    .logo{
+        margin: 0;
     }
 
 }
