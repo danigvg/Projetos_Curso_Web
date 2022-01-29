@@ -13,6 +13,9 @@
      <!--Font Awesome-->
      <script src="https://kit.fontawesome.com/3873a470eb.js" crossorigin="anonymous"></script>
 
+     <!--Javascript-->
+     <script src="js/script.js"></script>
+
     <title>Calculadora</title>
 </head>
 <body>
@@ -21,35 +24,35 @@
             <div class="col d-flex justify-content-center">
                 <div id="calculadora">
                     <div class="visor">
-                        <input class="visor-input" disabled type="text">
+                        <input id="display" disabled class="visor-input" type="text">
                     </div>
                     <div class="row g-0">
-                        <button class="col-9">C</button>
-                        <button class="col-3">/</button>
+                        <button onclick="calculadora('acao','limpa')" type="button" class="col-9">C</button>
+                        <button onclick="calculadora('acao','/')" type="button" class="col-3">/</button>
                     </div>
                     <div class="row g-0">
-                        <button class="col-3">7</button>
-                        <button class="col-3">8</button>
-                        <button class="col-3">9</button>
-                        <button class="col-3">X</button>
+                        <button onclick="calculadora('numero', 7)" type="button" class="col-3">7</button>
+                        <button onclick="calculadora('numero', 8)" type="button" class="col-3">8</button>
+                        <button onclick="calculadora('numero', 9)" type="button" class="col-3">9</button>
+                        <button onclick="calculadora('acao','*')" type="button" class="col-3">X</button>
                     </div>
                     <div class="row g-0">
-                        <button class="col-3">4</button>
-                        <button class="col-3">5</button>
-                        <button class="col-3">6</button>
-                        <button class="col-3">-</button>
+                        <button onclick="calculadora('numero', 4)" type="button" class="col-3">4</button>
+                        <button onclick="calculadora('numero', 5)" type="button" class="col-3">5</button>
+                        <button onclick="calculadora('numero', 6)" type="button" class="col-3">6</button>
+                        <button onclick="calculadora('acao','-')" type="button" class="col-3">-</button>
                     </div>
                     <div class="row g-0">
-                        <button class="col-3">1</button>
-                        <button class="col-3">2</button>
-                        <button class="col-3">3</button>
-                        <button class="col-3">+</button>
+                        <button onclick="calculadora('numero', 1)" type="button" class="col-3">1</button>
+                        <button onclick="calculadora('numero', 2)" type="button" class="col-3">2</button>
+                        <button onclick="calculadora('numero', 3)" type="button" class="col-3">3</button>
+                        <button onclick="calculadora('acao','+')" type="button" class="col-3">+</button>
                     </div>
                     <div class="row g-0">
-                        <button class="col-3">.</button> 
-                        <button class="col-3">0</button>
-                        <button class="col-3"><i class="fas fa-angle-double-left"></i></button>
-                        <button class="col-3">=</button>
+                        <button onclick="calculadora('acao','.')" type="button" class="col-3">.</button> 
+                        <button onclick="calculadora('numero', 0)" type="button" class="col-3">0</button>
+                        <button onclick="calculadora('acao','apaga')" type="button" class="col-3"><i class="fas fa-angle-double-left"></i></button>
+                        <button onclick="calculadora('acao','=')" type="button" class="col-3">=</button>
                     </div>
                 </div>
             </div>
