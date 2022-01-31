@@ -15,9 +15,9 @@ O gif a seguir mostra o resultado alcançado do projeto, em 4 tamanhos de telas 
 
 O objetivo era, com os conhecimentos adquiridos até o momento, conseguir reproduzir uma interface profissional como a do site do Spotify Brasil.
 Como diferencial, a versão do Bootstrap utilizada para esse projeto foi a v5.0.2, e alguns componentes foram desenvolvidos de forma diferente para dar um toque pessoal ao projeto.
- - O grupo de imagens da seção *Recursos* foi alterado para que sua exibição, em dispositivos menores que 992px de largura, fosse de uma galeria com as 4 imagens distribuídas proporcionalmente, para um carousel com indicadores onde cada imagem pôde ser melhor aproveitada;
+ - O grupo de imagens da seção *Recursos* foram alteradas para que a forma como são exibidas em dispositivos menores que 992px de largura, passasse de uma galeria com as 4 imagens distribuídas proporcionalmente para um carousel com indicadores, assim cada imagem pôde ser melhor aproveitada;
 
- - As imagens da seção *Facilidades* também foi alterado, para que em dispositivos até 767px, tivesse um melhor aproveitamento da tela.
+ - As imagens da seção *Facilidades* também foram alteradas, para que em dispositivos até 767px, tivessem um melhor aproveitamento da tela.
   
    Resultado sem alterações | Resultado com alterações
    -------------------------|--------------------------
