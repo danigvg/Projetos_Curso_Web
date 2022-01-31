@@ -21,12 +21,12 @@ A ideia do projeto é pegar o conhecimento sobre javascript adquirido até esse 
 
 Calculadora disponibilizada no curso | Calculadora criada neste projeto
 :-------------------------------------:|:---------------------------------:
-<img src="img/calculadora_curso.png" width="300px">|<img src="img/calculadora_projeto.png" width="300px">
+<img src="img/calculadora_curso.png" width="550px">|<img src="img/calculadora_projeto.png" width="550px">
 
 Outro ponto alterado foi a captura do evento dos botões: **+**, **-**, **X**, **/** e **.**. O código desses botões dava abertura pra um erro que permitia colocar mais de um símbolo em sequência, impedindo a realização da conta. Para impedir isso criado uma condição que verifica se o símbolo anterior antes de escrever na tela. 
 
  - Sem a verificação isso acontece: 
- <center><img src="img/erro_calc.gif" width="350px"></center>
+ <center><img src="img/erro_calc.gif" width="640px"></center>
 
 ~~~javascript
 if(valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor === '.'){
@@ -37,7 +37,7 @@ if(valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor ===
 - Com a verificação é possível realizar as operações:
 
 <center>
-<img src="img/calc_erro_corrigido.gif" width="350px">
+<img src="img/calc_erro_corrigido.gif" width="640px">
 </center>
 
 ~~~~javascript
@@ -81,7 +81,7 @@ if(valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor ===
 ~~~~
 - E um detalhe diferencial que foi colocado no projeto foi o botão com a função de apagar: 
 <center>
-<img src="img/botao_apagar.gif" width="350px">
+<img src="img/botao_apagar.gif" width="640px">
 
 
 </center>
