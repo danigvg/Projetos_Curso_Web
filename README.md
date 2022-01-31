@@ -24,7 +24,7 @@ Segue os módulos do curso, e seus respectivos projetos:
     - [x] [Projeto Finans](https://github.com/danigvg/projetos_curso_web/tree/master/projeto7_Finans)
     - [x] [Spotify Clone](https://github.com/danigvg/projetos_curso_web/tree/master/projeto8_SpotifyClone)
  - **Módulo 6**
-    - [ ] App Calculadora
+    - [x] [APP Calculadora](https://github.com/danigvg/projetos_curso_web/tree/master/projeto9_APPCalculadora)
     - [ ] App Game Mata Mosquito
  - **Módulo 7**
     - [ ] App Orçamento Pessoal (App para controle pessoal de finanças)
